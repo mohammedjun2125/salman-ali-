@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #F8F3E9;
+  --color-warm-cream: #F3EADB;
+  --color-champagne-gold: #C5A46D;
+  --color-antique-gold: #A88952;
+  --color-muted-beige: #E8DDCB;
+  --color-floral-white: #FFFDF8;
+  --color-sage-green: #92957B;
+  --color-deep-olive: #555442;
+  --color-vintage-brown: #51402F;
+
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-royal: "Cinzel", Georgia, serif;
+  --font-script: "Great Vibes", cursive;
+  --font-arabic: "Amiri", "Times New Roman", serif;
+  --font-editorial: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+@layer base {
+  html,
+  body {
+    overflow-x: hidden;
+    background-color: #F8F3E9;
+    color: #51402F;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+.font-royal {
+  font-family: var(--font-royal);
+}
+.font-script {
+  font-family: var(--font-script);
+}
+.font-arabic {
+  font-family: var(--font-arabic);
+}
+.font-editorial {
+  font-family: var(--font-editorial);
+}
+.font-ui {
+  font-family: var(--font-sans);
+}
+
+.gold-shimmer-btn {
+  background: linear-gradient(
+    135deg,
+    #8E6E3B 0%,
+    #C5A46D 35%,
+    #DFC592 55%,
+    #A88952 85%,
+    #826434 100%
+  );
+  box-shadow:
+    0 10px 30px -8px rgba(81, 64, 47, 0.45),
+    inset 0 1px 1px rgba(255, 253, 248, 0.55);
+}
+
+.gold-shimmer-btn:hover {
+  background: linear-gradient(
+    135deg,
+    #9C7A42 0%,
+    #D1B179 40%,
+    #EBD4A4 60%,
+    #B4945B 88%,
+    #8F6F3B 100%
+  );
+}
+
+.mughal-arch-clip {
+  border-top-left-radius: 50% 24%;
+  border-top-right-radius: 50% 24%;
+}
+
+.marble-surface {
+  background-color: #FFFDF8;
+  background-image:
+    radial-gradient(at 18% 12%, rgba(197, 164, 109, 0.08) 0px, transparent 52%),
+    radial-gradient(at 84% 85%, rgba(232, 221, 203, 0.42) 0px, transparent 58%);
+}

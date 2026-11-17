@@ -1,0 +1,6 @@
+{
+  "name": "Syed Salman Ali — Royal Mughal Wedding Invitation",
+  "description": "An interactive, luxury Mughal Islamic wedding invitation celebrating the Nikah and Valima of Syed Salman Ali.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
